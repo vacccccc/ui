@@ -1,7 +1,7 @@
 --[[
-Octohook ui lib informant version
+Informant UI Astolfo Version
 Developed by liam#4567
-Edited by xz#1111
+Edited by vac
 ]]
 
 -- // Load
@@ -3854,6 +3854,8 @@ function library:init()
                                         keyString = '='
                                     elseif inp.KeyCode.Name == 'Backquote' then
                                         keyString = '`'
+                                    elseif inp.KeyCode.Name == 'Period' then 
+                                        keystring = '.'
                                     end
                                 else
                                     if keyString == '1' then
